@@ -1,0 +1,283 @@
+{
+  "seo": {
+    "title": "CloudDrop - Sichere P2P-Dateifreigabe",
+    "description": "CloudDrop - Sichere Peer-to-Peer-Dateifreigabe, keine Installation erforderlich, Ende-zu-Ende-Verschlüsselung, geräteübergreifende Übertragung",
+    "keywords": "Dateiübertragung,P2P,Ende-zu-Ende-Verschlüsselung,Dateifreigabe,WebRTC,sichere Übertragung,geräteübergreifend",
+    "ogTitle": "CloudDrop - Sichere P2P-Dateifreigabe",
+    "ogDescription": "Sicheres P2P-Dateifreigabe-Tool, keine Installation erforderlich, Ende-zu-Ende-Verschlüsselung, sofortige geräteübergreifende Übertragung"
+  },
+  "common": {
+    "ok": "OK",
+    "cancel": "Abbrechen",
+    "close": "Schließen",
+    "accept": "Akzeptieren",
+    "decline": "Ablehnen",
+    "send": "Senden",
+    "save": "Speichern",
+    "copy": "Kopieren",
+    "copied": "Kopiert",
+    "loading": "Laden...",
+    "connecting": "Verbinden...",
+    "connected": "Verbunden",
+    "disconnected": "Getrennt",
+    "confirmAction": "Aktion bestätigen",
+    "confirmMessage": "Sind Sie sicher, dass Sie diese Aktion ausführen möchten?",
+    "github": "GitHub",
+    "join": "Raum beitreten"
+  },
+  "deviceNames": {
+    "adjectives": ["Schnell", "Hell", "Cool", "Flink", "Elegant", "Fliegend", "Agil", "Stabil"],
+    "nouns": ["Phönix", "Drache", "Tiger", "Adler", "Falke", "Pegasus", "Hirsch", "Wolf"]
+  },
+  "header": {
+    "deviceLabel": "Gerät:",
+    "editDeviceName": "Gerätename bearbeiten",
+    "roomLabel": "Raum:",
+    "clickToCopy": "Zum Kopieren klicken",
+    "refreshRoom": "Raum aktualisieren",
+    "shareRoom": "Raum teilen",
+    "joinRoom": "Anderem Raum beitreten",
+    "connectionStatus": {
+      "connected": "Mit Server verbunden",
+      "disconnected": "Vom Server getrennt",
+      "connecting": "Verbindung zum Server wird hergestellt..."
+    }
+  },
+  "emptyState": {
+    "title": "Warten auf Geräte",
+    "description": "Lassen Sie andere Geräte mit dem <strong>gleichen Raumcode</strong> beitreten, um sich gegenseitig zu entdecken und Dateien zu übertragen",
+    "hint": "Bei der Nutzung über mehrere Geräte teilen Sie den Raumcode, um sicherzustellen, dass alle Geräte dem gleichen Raum beitreten",
+    "shareRoomBtn": "Raumcode teilen",
+    "joinRoomBtn": "Anderem Raum beitreten",
+    "quickJoinLabel": "Oder Raumcode direkt eingeben"
+  },
+  "security": {
+    "title": "Sicherheit zuerst, Datenschutz garantiert",
+    "subtitle": "Wir verwenden branchenführende Sicherheitstechnologie, um sicherzustellen, dass Ihre Dateiübertragungen sicher und zuverlässig sind",
+    "endToEndEncryption": {
+      "title": "Ende-zu-Ende-Verschlüsselung",
+      "desc": "Mit AES-256-GCM-Verschlüsselung werden Dateien vor der Übertragung verschlüsselt, nur der Empfänger kann sie entschlüsseln",
+      "tooltip": "Mit dem AES-256-GCM-Verschlüsselungsalgorithmus werden Dateien vor der Übertragung verschlüsselt, nur der Empfänger kann sie entschlüsseln, selbst wenn Daten abgefangen werden, können sie nicht gelesen werden"
+    },
+    "noServerStorage": {
+      "title": "Keine Serverspeicherung",
+      "desc": "Dateien werden auf keinem Server gespeichert, sofort nach der Übertragung zerstört, ohne Spuren zu hinterlassen",
+      "tooltip": "Dateien werden auf keinem Server gespeichert, Daten werden direkt zwischen Geräten übertragen, automatisch nach der Übertragung zerstört, ohne Spuren zu hinterlassen"
+    },
+    "p2pDirect": {
+      "title": "P2P-Direktübertragung",
+      "desc": "Priorisiert WebRTC-Technologie für Peer-to-Peer-Direktverbindung, schneller und privater",
+      "tooltip": "Priorisiert WebRTC-Technologie für Peer-to-Peer-Direktverbindung zwischen Geräten, kein Relay-Server erforderlich, schnellere Übertragung, geringere Latenz, besserer Datenschutz"
+    },
+    "openSource": {
+      "title": "Open Source & Transparent",
+      "desc": "Vollständig Open-Source-Code, unterliegt der Community-Prüfung, Sicherheit bewiesen",
+      "tooltip": "Vollständiger Quellcode auf GitHub geöffnet, von Entwicklern und Sicherheitsexperten weltweit überprüft, Sicherheit durch Transparenz bewiesen"
+    },
+    "badges": {
+      "zeroKnowledge": "Zero-Knowledge-Architektur",
+      "noRegistration": "Keine Registrierung erforderlich",
+      "noDataCollection": "Keine Datenerfassung"
+    }
+  },
+  "transfer": {
+    "modes": {
+      "label": "Übertragungsmodus",
+      "p2p": "P2P Direkt",
+      "p2pTooltip": "Direkte P2P-Verbindung zwischen Geräten, kein Server-Relay erforderlich, schneller und mit geringerer Latenz",
+      "relay": "Relay-Übertragung",
+      "relayTooltip": "Über Server-Relay übertragen, Daten sind weiterhin Ende-zu-Ende-verschlüsselt für sichere Übertragung",
+      "connecting": "Verbinden",
+      "waiting": "Warten auf Bestätigung"
+    },
+    "connection": {
+      "establishing": "Verbindung wird hergestellt...",
+      "slow": "Netzwerk ist langsam, Relay-Übertragung wird versucht...",
+      "failedSwitchRelay": "Verbindung fehlgeschlagen, auf Relay-Übertragung umgeschaltet",
+      "switchedToRelay": "Auf Relay-Übertragung umgeschaltet für stabile Verbindung",
+      "timeoutSwitchRelay": "Verbindungszeitüberschreitung, auf Relay-Übertragung umgeschaltet"
+    },
+    "sending": "Senden",
+    "receiving": "Empfangen",
+    "waitingConfirm": "Warten auf Bestätigung",
+    "waitingFor": "Warte auf Bestätigung von {{name}}...",
+    "cancelTransfer": "Übertragung abbrechen",
+    "transferCancelled": "Übertragung abgebrochen",
+    "transferComplete": "Übertragung abgeschlossen",
+    "releaseToDrop": "Loslassen zum Senden der Datei",
+    "fileCount": {
+      "one": "{{count}} Datei",
+      "other": "{{count}} Dateien"
+    },
+    "deviceCount": {
+      "one": "{{count}} Gerät",
+      "other": "{{count}} Geräte"
+    }
+  },
+  "fileRequest": {
+    "title": "Datei empfangen",
+    "from": "Von:",
+    "securityNotice": "Datei während der Übertragung verschlüsselt, sicher und zuverlässig",
+    "alwaysAccept": "Dateien von diesem Gerät immer akzeptieren",
+    "trustHint": "Nach dem Vertrauen werden Dateien von diesem Gerät automatisch akzeptiert"
+  },
+  "deviceName": {
+    "editTitle": "Gerätename bearbeiten",
+    "description": "Legen Sie einen freundlichen Namen fest, um die Identifizierung durch andere Geräte zu erleichtern",
+    "placeholder": "Gerätenamen eingeben",
+    "updated": "Gerätename aktualisiert"
+  },
+  "room": {
+    "joinTitle": "Raum beitreten",
+    "joinDesc": "Geben Sie den Raumcode ein, um dem Raum beizutreten, in dem sich andere Geräte befinden",
+    "placeholder": "6-stelligen Raumcode eingeben",
+    "passwordPlaceholder": "Raumpasswort (mindestens 6 Zeichen)",
+    "passwordRequired": "Dieser Raum erfordert ein Passwort zum Beitreten",
+    "invalidCode": "Ungültiges Raumcode-Format (erfordert 6 alphanumerische Zeichen)",
+    "createSecure": "Verschlüsselten Raum erstellen",
+    "createSecureDesc": "Erstellen Sie einen verschlüsselten Raum, nur Benutzer mit dem Passwort können beitreten",
+    "roomCode": "Raumcode",
+    "roomCodePlaceholder": "6 alphanumerische Zeichen",
+    "password": "Raumpasswort",
+    "passwordMinLength": "Mindestens 6 Zeichen",
+    "passwordStrength": {
+      "weak": "Schwach",
+      "fair": "Mäßig",
+      "good": "Gut",
+      "strong": "Stark"
+    },
+    "securityFeatures": {
+      "doubleEncryption": "Ende-zu-Ende-Doppelverschlüsselung",
+      "mitm": "Verhindert Man-in-the-Middle-Angriffe",
+      "noServerStorage": "Passwort wird nicht auf dem Server gespeichert"
+    },
+    "createSecureBtn": "Verschlüsselten Raum erstellen",
+    "createSuccess": "Verschlüsselter Raum erfolgreich erstellt",
+    "passwordError": "Passwort falsch",
+    "alreadySecure": "Bereits in einem verschlüsselten Raum",
+    "secureRoomActive": "Verschlüsselter Raum - Passwortschutz aktiviert",
+    "clickToCreateSecure": "Klicken Sie, um einen verschlüsselten Raum zu erstellen",
+    "autoAssigning": "Automatische Zuweisung...",
+    "switchedToRoom": "Zu neuem Raum gewechselt: {{room}}",
+    "autoAssigned": "Raum {{room}} beigetreten, teilen Sie den Raumcode mit anderen Geräten"
+  },
+  "share": {
+    "title": "Raum teilen",
+    "qrHint": "QR-Code scannen, um dem Raum beizutreten",
+    "roomCode": "Raumcode",
+    "copyCode": "Raumcode kopieren",
+    "copyLink": "Link kopieren",
+    "moreWays": "Weitere Optionen",
+    "hint": "Lassen Sie andere Geräte diesem Raumcode beitreten, um Dateien zu übertragen",
+    "linkCopied": "Link kopiert",
+    "roomCodeCopied": "Raumcode kopiert",
+    "nativeShareTitle": "CloudDrop - Raum beitreten",
+    "nativeShareText": "Raum {{room}} beitreten, um Dateien zu übertragen"
+  },
+  "chat": {
+    "title": "Nachrichtenverlauf",
+    "titleWithPeer": "Chat mit {{name}}",
+    "placeholder": "Nachricht eingeben...",
+    "removeImage": "Bild entfernen",
+    "imagePreview": "Vorschau",
+    "imageFullscreen": "Vollbildvorschau",
+    "emptyState": {
+      "icon": "💬",
+      "text": "Noch keine Nachrichten",
+      "hint": "Senden Sie unten Ihre erste Nachricht oder Ihr erstes Bild"
+    },
+    "sending": "Senden...",
+    "failed": "Fehlgeschlagen · Tippen zum Wiederholen",
+    "justNow": "Gerade eben",
+    "minutesAgo": "Vor {{minutes}} Min.",
+    "hoursAgo": "Vor {{hours}} Std.",
+    "copyMessage": "Nachricht kopieren",
+    "copyImage": "Bild kopieren",
+    "attachImage": "Bild senden",
+    "imageSent": "Bild gesendet",
+    "imageSendFailed": "Bildsenden fehlgeschlagen: {{error}}",
+    "imagePreviewFailed": "Bildvorschau fehlgeschlagen: {{error}}",
+    "receivedImage": "{{name}} hat ein Bild gesendet",
+    "copyNotSupported": "Ihr Browser unterstützt das Kopieren von Bildern nicht, bitte klicken Sie mit der rechten Maustaste, um manuell zu kopieren",
+    "imageCopied": "Bild in die Zwischenablage kopiert"
+  },
+  "download": {
+    "title": "Datei empfangen",
+    "saveFile": "Datei speichern",
+    "saved": "Gespeichert: {{name}}"
+  },
+  "toast": {
+    "peerJoined": "{{name}} ist beigetreten",
+    "peerLeft": "{{name}} hat den Raum verlassen",
+    "fileSent": "Gesendet: {{name}}",
+    "fileDeclined": "{{name}} hat den Empfang der Datei abgelehnt",
+    "fileTimeout": "Dateianfrage abgelaufen, keine Antwort vom Empfänger",
+    "sendFailed": "Senden fehlgeschlagen: {{error}}",
+    "messageSent": "Nachricht gesendet",
+    "autoAccepting": "Datei von {{name}} automatisch akzeptieren: {{file}}",
+    "peerRenamed": "{{oldName}} wurde in {{newName}} umbenannt",
+    "retryFailed": "Wiederholung fehlgeschlagen: {{error}}",
+    "trusted": "Gerät vertraut: {{name}}",
+    "untrusted": "Gerät nicht mehr vertraut: {{name}}",
+    "noDevices": "Keine Geräte verfügbar",
+    "selectDevice": "Bitte klicken Sie auf das Zielgerät, um die Datei zu senden",
+    "selectDeviceForText": "Bitte klicken Sie auf die Nachrichtentaste des Zielgeräts, um Text zu senden",
+    "copyFailed": "Kopieren fehlgeschlagen",
+    "shareNotSupported": "Ihr Browser unterstützt das Teilen nicht",
+    "shareFailed": "Teilen fehlgeschlagen",
+    "invalidRoomCode": "Bitte geben Sie den vollständigen 6-stelligen Raumcode ein"
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "deviceName": "Gerätename",
+    "currentRoom": "Aktueller Raum",
+    "connectionStatus": "Verbindungsstatus",
+    "trustedDevices": "Vertrauenswürdige Geräte",
+    "trustedDevicesHint": "Dateien von vertrauenswürdigen Geräten werden automatisch akzeptiert",
+    "noTrustedDevices": "Keine vertrauenswürdigen Geräte",
+    "unknownBrowser": "Unbekannter Browser",
+    "clickToUntrust": "Klicken zum Entfernen des Vertrauens",
+    "edit": "Bearbeiten",
+    "untrust": "Vertrauen entfernen",
+    "confirmUntrust": "Sind Sie sicher, dass Sie das Vertrauen von \"<strong>{{name}}</strong>\" entfernen möchten?<br><br><span style=\"color: var(--text-muted)\">Nach dem Entfernen des Vertrauens erfordern Dateien von diesem Gerät eine manuelle Bestätigung.</span>",
+    "keepTrust": "Vertrauen behalten"
+  },
+  "navigation": {
+    "devices": "Geräte",
+    "room": "Raum",
+    "send": "Senden",
+    "share": "Teilen",
+    "settings": "Einstellungen"
+  },
+  "quickActions": {
+    "title": "Senden an...",
+    "sendFile": "Datei senden",
+    "sendFileDesc": "Datei zum Senden an das Gerät auswählen",
+    "sendText": "Text senden",
+    "sendTextDesc": "Textnachricht oder Link senden"
+  },
+  "fileTypes": {
+    "image": "Bild",
+    "video": "Video",
+    "audio": "Audio",
+    "document": "Dokument",
+    "archive": "Archiv",
+    "code": "Code",
+    "file": "Datei"
+  },
+  "deviceTypes": {
+    "desktop": "Desktop",
+    "mobile": "Mobil",
+    "tablet": "Tablet",
+    "unknown": "Unbekanntes Gerät"
+  },
+  "errors": {
+    "connectionFailed": "Verbindung fehlgeschlagen",
+    "transferFailed": "Übertragung fehlgeschlagen",
+    "fileTooBig": "Datei zu groß",
+    "unsupportedBrowser": "Browser nicht unterstützt",
+    "networkError": "Netzwerkfehler",
+    "fileReadFailed": "Datei konnte nicht gelesen werden",
+    "imageLoadFailed": "Bild konnte nicht geladen werden"
+  }
+}

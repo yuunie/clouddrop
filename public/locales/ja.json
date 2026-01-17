@@ -1,0 +1,280 @@
+{
+  "seo": {
+    "title": "CloudDrop - 安全なP2Pファイル共有",
+    "description": "CloudDrop - 安全なピアツーピアファイル共有、インストール不要、エンドツーエンド暗号化、クロスデバイス転送対応",
+    "keywords": "ファイル転送,P2P,エンドツーエンド暗号化,ファイル共有,WebRTC,安全な転送,クロスデバイス",
+    "ogTitle": "CloudDrop - 安全なP2Pファイル共有",
+    "ogDescription": "安全なピアツーピアファイル共有ツール、インストール不要、エンドツーエンド暗号化、即時クロスデバイス転送"
+  },
+  "common": {
+    "ok": "OK",
+    "cancel": "キャンセル",
+    "close": "閉じる",
+    "accept": "受け入れる",
+    "decline": "拒否",
+    "send": "送信",
+    "save": "保存",
+    "copy": "コピー",
+    "copied": "コピーしました",
+    "loading": "読み込み中...",
+    "connecting": "接続中...",
+    "connected": "接続済み",
+    "disconnected": "切断",
+    "confirmAction": "アクションを確認",
+    "confirmMessage": "この操作を実行してもよろしいですか?",
+    "github": "GitHub"
+  },
+  "deviceNames": {
+    "adjectives": ["俊敏", "輝く", "颯爽", "迅速", "優雅", "飛翔", "軽快", "堅実"],
+    "nouns": ["鳳凰", "麒麟", "玄武", "青龍", "朱雀", "天馬", "神鹿", "白虎"]
+  },
+  "header": {
+    "deviceLabel": "デバイス:",
+    "editDeviceName": "デバイス名を編集",
+    "roomLabel": "ルーム:",
+    "clickToCopy": "クリックしてコピー",
+    "refreshRoom": "ルームを更新",
+    "shareRoom": "ルームを共有",
+    "joinRoom": "別のルームに参加",
+    "connectionStatus": {
+      "connected": "サーバーに接続済み",
+      "disconnected": "サーバーから切断",
+      "connecting": "サーバーに接続中..."
+    }
+  },
+  "emptyState": {
+    "title": "デバイスを待機中",
+    "description": "他のデバイスに<strong>同じルームコード</strong>で参加してもらい、お互いを発見してファイルを転送します",
+    "hint": "複数のデバイス間で使用する場合は、ルームコードを共有して、すべてのデバイスが同じルームに参加するようにしてください",
+    "shareRoomBtn": "ルームコードを共有",
+    "joinRoomBtn": "別のルームに参加",
+    "quickJoinLabel": "またはルームコードを直接入力"
+  },
+  "security": {
+    "title": "セキュリティ第一、プライバシー保証",
+    "subtitle": "業界最先端のセキュリティ技術を使用して、ファイル転送の安全性と信頼性を確保します",
+    "endToEndEncryption": {
+      "title": "エンドツーエンド暗号化",
+      "desc": "AES-256-GCM暗号化を使用し、ファイルは転送前に暗号化され、受信者のみが復号化できます",
+      "tooltip": "AES-256-GCM暗号化アルゴリズムを使用し、ファイルは転送前に暗号化され、受信者のみが復号化できます。データが傍受されても読み取ることはできません"
+    },
+    "noServerStorage": {
+      "title": "サーバー保存なし",
+      "desc": "ファイルはサーバーに保存されず、転送完了後すぐに破棄され、痕跡を残しません",
+      "tooltip": "ファイルはサーバーに保存されず、データはデバイス間で直接転送され、転送完了後自動的に破棄され、痕跡を残しません"
+    },
+    "p2pDirect": {
+      "title": "P2P直接転送",
+      "desc": "WebRTC技術を優先的に使用し、ピアツーピア直接接続でより高速でプライベート",
+      "tooltip": "WebRTC技術を優先的に使用してデバイス間のピアツーピア直接接続を実現し、リレーサーバーが不要で、転送速度が速く、レイテンシが低く、プライバシーがより保護されます"
+    },
+    "openSource": {
+      "title": "オープンソースで透明",
+      "desc": "完全にオープンソースのコード、コミュニティレビューの対象、セキュリティは実証済み",
+      "tooltip": "完全なソースコードがGitHubでオープンソース化され、世界中の開発者とセキュリティ専門家によってレビューされ、セキュリティは透明性によって実証されています"
+    },
+    "badges": {
+      "zeroKnowledge": "ゼロ知識アーキテクチャ",
+      "noRegistration": "登録不要",
+      "noDataCollection": "データ収集なし"
+    }
+  },
+  "transfer": {
+    "modes": {
+      "label": "転送モード",
+      "p2p": "P2P直接",
+      "p2pTooltip": "デバイス間の直接ピアツーピア接続、サーバー経由不要、より高速で低遅延",
+      "relay": "リレー転送",
+      "relayTooltip": "サーバー経由でリレー転送、データは引き続きエンドツーエンド暗号化され、安全に転送されます",
+      "connecting": "接続中",
+      "waiting": "確認待ち"
+    },
+    "connection": {
+      "establishing": "接続を確立中...",
+      "slow": "ネットワークが遅い、リレー転送を試行中...",
+      "failedSwitchRelay": "接続に失敗、リレー転送に切り替えました",
+      "switchedToRelay": "安定した接続のためにリレー転送に切り替えました",
+      "timeoutSwitchRelay": "接続タイムアウト、リレー転送に切り替えました"
+    },
+    "sending": "送信中",
+    "receiving": "受信中",
+    "waitingConfirm": "確認待ち",
+    "waitingFor": "{{name}}の確認を待っています...",
+    "cancelTransfer": "転送をキャンセル",
+    "transferCancelled": "転送がキャンセルされました",
+    "transferComplete": "転送完了",
+    "releaseToDrop": "放してファイルを送信",
+    "fileCount": {
+      "other": "{{count}} 個のファイル"
+    },
+    "deviceCount": {
+      "other": "{{count}} 個のデバイス"
+    }
+  },
+  "fileRequest": {
+    "title": "ファイルを受信",
+    "from": "送信元:",
+    "securityNotice": "ファイルは転送中に暗号化され、安全で信頼性があります",
+    "alwaysAccept": "このデバイスからのファイルを常に受け入れる",
+    "trustHint": "信頼すると、このデバイスからのファイルは自動的に受け入れられます"
+  },
+  "deviceName": {
+    "editTitle": "デバイス名を編集",
+    "description": "他のデバイスが識別しやすいように、わかりやすい名前を設定します",
+    "placeholder": "デバイス名を入力",
+    "updated": "デバイス名を更新しました"
+  },
+  "room": {
+    "joinTitle": "ルームに参加",
+    "joinDesc": "ルームコードを入力して、他のデバイスがいるルームに参加します",
+    "placeholder": "6桁のルームコードを入力",
+    "passwordPlaceholder": "ルームパスワード(6文字以上)",
+    "passwordRequired": "このルームは参加にパスワードが必要です",
+    "invalidCode": "無効なルームコード形式(6文字の英数字が必要)",
+    "createSecure": "暗号化ルームを作成",
+    "createSecureDesc": "暗号化ルームを作成し、パスワードを持つユーザーのみが参加できます",
+    "roomCode": "ルームコード",
+    "roomCodePlaceholder": "6文字の英数字",
+    "password": "ルームパスワード",
+    "passwordMinLength": "6文字以上",
+    "passwordStrength": {
+      "weak": "弱い",
+      "fair": "普通",
+      "good": "良い",
+      "strong": "強い"
+    },
+    "securityFeatures": {
+      "doubleEncryption": "エンドツーエンド二重暗号化",
+      "mitm": "中間者攻撃を防止",
+      "noServerStorage": "パスワードはサーバーに保存されません"
+    },
+    "createSecureBtn": "暗号化ルームを作成",
+    "createSuccess": "暗号化ルームが正常に作成されました",
+    "passwordError": "パスワードが正しくありません",
+    "alreadySecure": "すでに暗号化ルームにいます",
+    "secureRoomActive": "暗号化ルーム - パスワード保護が有効",
+    "clickToCreateSecure": "クリックして暗号化ルームを作成",
+    "autoAssigning": "自動割り当て中...",
+    "switchedToRoom": "新しいルームに切り替えました: {{room}}",
+    "autoAssigned": "ルーム{{room}}に参加しました。他のデバイスとルームコードを共有してください"
+  },
+  "share": {
+    "title": "ルームを共有",
+    "qrHint": "QRコードをスキャンしてルームに参加",
+    "roomCode": "ルームコード",
+    "copyCode": "ルームコードをコピー",
+    "copyLink": "リンクをコピー",
+    "moreWays": "その他のオプション",
+    "hint": "他のデバイスにこのルームコードで参加してもらい、ファイルを転送します",
+    "linkCopied": "リンクをコピーしました",
+    "roomCodeCopied": "ルームコードをコピーしました",
+    "nativeShareTitle": "CloudDrop - ルームに参加",
+    "nativeShareText": "ルーム{{room}}に参加してファイルを転送"
+  },
+  "chat": {
+    "title": "メッセージ履歴",
+    "titleWithPeer": "{{name}}とのチャット",
+    "placeholder": "メッセージを入力...",
+    "removeImage": "画像を削除",
+    "imagePreview": "プレビュー",
+    "imageFullscreen": "フルスクリーンプレビュー",
+    "emptyState": {
+      "icon": "💬",
+      "text": "まだメッセージがありません",
+      "hint": "下のボックスで最初のメッセージまたは画像を送信してください"
+    },
+    "sending": "送信中...",
+    "failed": "失敗 · タップして再試行",
+    "justNow": "たった今",
+    "minutesAgo": "{{minutes}}分前",
+    "hoursAgo": "{{hours}}時間前",
+    "copyMessage": "メッセージをコピー",
+    "copyImage": "画像をコピー",
+    "attachImage": "画像を送信",
+    "imageSent": "画像を送信しました",
+    "imageSendFailed": "画像の送信に失敗しました: {{error}}",
+    "imagePreviewFailed": "画像のプレビューに失敗しました: {{error}}",
+    "receivedImage": "{{name}}が画像を送信しました",
+    "copyNotSupported": "お使いのブラウザは画像のコピーをサポートしていません。右クリックして手動でコピーしてください",
+    "imageCopied": "画像をクリップボードにコピーしました"
+  },
+  "download": {
+    "title": "ファイルを受信しました",
+    "saveFile": "ファイルを保存",
+    "saved": "保存しました: {{name}}"
+  },
+  "toast": {
+    "peerJoined": "{{name}}が参加しました",
+    "peerLeft": "{{name}}が退出しました",
+    "fileSent": "送信しました: {{name}}",
+    "fileDeclined": "{{name}}がファイルの受信を拒否しました",
+    "fileTimeout": "ファイルリクエストがタイムアウトしました。受信者からの応答がありません",
+    "sendFailed": "送信に失敗しました: {{error}}",
+    "messageSent": "メッセージを送信しました",
+    "autoAccepting": "{{name}}からのファイルを自動受信中: {{file}}",
+    "peerRenamed": "{{oldName}}が{{newName}}に改名しました",
+    "retryFailed": "再試行に失敗しました: {{error}}",
+    "trusted": "デバイスを信頼しました: {{name}}",
+    "untrusted": "デバイスの信頼を解除しました: {{name}}",
+    "noDevices": "利用可能なデバイスがありません",
+    "selectDevice": "ファイルを送信するターゲットデバイスをクリックしてください",
+    "selectDeviceForText": "テキストを送信するターゲットデバイスのメッセージボタンをクリックしてください",
+    "copyFailed": "コピーに失敗しました",
+    "shareNotSupported": "お使いのブラウザは共有をサポートしていません",
+    "shareFailed": "共有に失敗しました",
+    "invalidRoomCode": "完全な6桁のルームコードを入力してください"
+  },
+  "settings": {
+    "title": "設定",
+    "deviceName": "デバイス名",
+    "currentRoom": "現在のルーム",
+    "connectionStatus": "接続状態",
+    "trustedDevices": "信頼されたデバイス",
+    "trustedDevicesHint": "信頼されたデバイスからのファイルは自動的に受け入れられます",
+    "noTrustedDevices": "信頼されたデバイスがありません",
+    "unknownBrowser": "不明なブラウザ",
+    "clickToUntrust": "クリックして信頼を解除",
+    "edit": "編集",
+    "untrust": "信頼を解除",
+    "confirmUntrust": "「<strong>{{name}}</strong>」の信頼を解除してもよろしいですか?<br><br><span style=\"color: var(--text-muted)\">信頼を解除すると、このデバイスからのファイルは手動で確認する必要があります。</span>",
+    "keepTrust": "信頼を維持"
+  },
+  "navigation": {
+    "devices": "デバイス",
+    "room": "ルーム",
+    "send": "送信",
+    "share": "共有",
+    "settings": "設定"
+  },
+  "quickActions": {
+    "title": "送信先...",
+    "sendFile": "ファイルを送信",
+    "sendFileDesc": "デバイスに送信するファイルを選択",
+    "sendText": "テキストを送信",
+    "sendTextDesc": "テキストメッセージまたはリンクを送信"
+  },
+  "fileTypes": {
+    "image": "画像",
+    "video": "動画",
+    "audio": "オーディオ",
+    "document": "ドキュメント",
+    "archive": "アーカイブ",
+    "code": "コード",
+    "file": "ファイル"
+  },
+  "deviceTypes": {
+    "desktop": "デスクトップ",
+    "mobile": "モバイル",
+    "tablet": "タブレット",
+    "unknown": "不明なデバイス"
+  },
+  "errors": {
+    "connectionFailed": "接続に失敗しました",
+    "transferFailed": "転送に失敗しました",
+    "fileTooBig": "ファイルが大きすぎます",
+    "unsupportedBrowser": "ブラウザがサポートされていません",
+    "networkError": "ネットワークエラー",
+    "fileReadFailed": "ファイルの読み取りに失敗しました",
+    "imageLoadFailed": "画像の読み込みに失敗しました"
+  }
+}

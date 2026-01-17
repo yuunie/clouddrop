@@ -1,0 +1,282 @@
+{
+  "seo": {
+    "title": "CloudDrop - Secure P2P File Sharing",
+    "description": "CloudDrop - Secure peer-to-peer file sharing, no installation needed, end-to-end encrypted, cross-device transfer",
+    "keywords": "file transfer,P2P,end-to-end encryption,file sharing,WebRTC,secure transfer,cross-device",
+    "ogTitle": "CloudDrop - Secure P2P File Sharing",
+    "ogDescription": "Secure peer-to-peer file sharing tool, no installation needed, end-to-end encrypted, instant cross-device transfer"
+  },
+  "common": {
+    "ok": "OK",
+    "cancel": "Cancel",
+    "close": "Close",
+    "accept": "Accept",
+    "decline": "Decline",
+    "send": "Send",
+    "save": "Save",
+    "copy": "Copy",
+    "copied": "Copied",
+    "loading": "Loading...",
+    "connecting": "Connecting...",
+    "connected": "Connected",
+    "disconnected": "Disconnected",
+    "confirmAction": "Confirm Action",
+    "confirmMessage": "Are you sure you want to perform this action?",
+    "github": "GitHub"
+  },
+  "deviceNames": {
+    "adjectives": ["Swift", "Bright", "Cool", "Quick", "Elegant", "Flying", "Agile", "Steady"],
+    "nouns": ["Phoenix", "Dragon", "Tiger", "Eagle", "Falcon", "Pegasus", "Deer", "Wolf"]
+  },
+  "header": {
+    "deviceLabel": "Device:",
+    "editDeviceName": "Edit Device Name",
+    "roomLabel": "Room:",
+    "clickToCopy": "Click to copy",
+    "refreshRoom": "Refresh Room",
+    "shareRoom": "Share Room",
+    "joinRoom": "Join Another Room",
+    "connectionStatus": {
+      "connected": "Connected to server",
+      "disconnected": "Disconnected from server",
+      "connecting": "Connecting to server..."
+    }
+  },
+  "emptyState": {
+    "title": "Waiting for Devices",
+    "description": "Let other devices join using the <strong>same room code</strong> to discover each other and transfer files",
+    "hint": "When using across devices, share the room code to ensure all devices join the same room",
+    "shareRoomBtn": "Share Room Code",
+    "joinRoomBtn": "Join Another Room",
+    "quickJoinLabel": "Or enter room code directly"
+  },
+  "security": {
+    "title": "Security First, Privacy Guaranteed",
+    "subtitle": "We use industry-leading security technology to ensure your file transfers are safe and reliable",
+    "endToEndEncryption": {
+      "title": "End-to-End Encryption",
+      "desc": "Using AES-256-GCM encryption, files are encrypted before transmission, only the recipient can decrypt",
+      "tooltip": "Using AES-256-GCM encryption algorithm, files are encrypted before transmission, only the recipient can decrypt them, even if data is intercepted it cannot be read"
+    },
+    "noServerStorage": {
+      "title": "No Server Storage",
+      "desc": "Files are not stored on any server, destroyed immediately after transfer, leaving no trace",
+      "tooltip": "Files are not stored on any server, data is transferred directly between devices, automatically destroyed after transfer, leaving no trace"
+    },
+    "p2pDirect": {
+      "title": "P2P Direct Transfer",
+      "desc": "Prioritizes WebRTC technology for peer-to-peer direct connection, faster and more private",
+      "tooltip": "Prioritizes WebRTC technology for peer-to-peer direct connection between devices, no relay server needed, faster transfer, lower latency, better privacy"
+    },
+    "openSource": {
+      "title": "Open Source & Transparent",
+      "desc": "Fully open-source code, subject to community review, security proven",
+      "tooltip": "Complete source code open on GitHub, reviewed by global developers and security experts, security proven through transparency"
+    },
+    "badges": {
+      "zeroKnowledge": "Zero-Knowledge Architecture",
+      "noRegistration": "No Registration Required",
+      "noDataCollection": "No Data Collection"
+    }
+  },
+  "transfer": {
+    "modes": {
+      "label": "Transfer Mode",
+      "p2p": "P2P Direct",
+      "p2pTooltip": "Direct peer-to-peer connection between devices, no server relay needed, faster and lower latency",
+      "relay": "Relay Transfer",
+      "relayTooltip": "Transferred via server relay, data is still end-to-end encrypted for secure transmission",
+      "connecting": "Connecting",
+      "waiting": "Waiting for confirmation"
+    },
+    "connection": {
+      "establishing": "Establishing connection...",
+      "slow": "Network is slow, trying relay transfer...",
+      "failedSwitchRelay": "Connection failed, switched to relay transfer",
+      "switchedToRelay": "Switched to relay transfer for stable connection",
+      "timeoutSwitchRelay": "Connection timeout, switched to relay transfer"
+    },
+    "sending": "Sending",
+    "receiving": "Receiving",
+    "waitingConfirm": "Waiting for Confirmation",
+    "waitingFor": "Waiting for {{name}} to confirm...",
+    "cancelTransfer": "Cancel Transfer",
+    "transferCancelled": "Transfer cancelled",
+    "transferComplete": "Transfer complete",
+    "releaseToDrop": "Release to send file",
+    "fileCount": {
+      "one": "{{count}} file",
+      "other": "{{count}} files"
+    },
+    "deviceCount": {
+      "one": "{{count}} device",
+      "other": "{{count}} devices"
+    }
+  },
+  "fileRequest": {
+    "title": "File Received",
+    "from": "From:",
+    "securityNotice": "File encrypted in transit, secure and reliable",
+    "alwaysAccept": "Always accept files from this device",
+    "trustHint": "Once trusted, files from this device will be automatically accepted"
+  },
+  "deviceName": {
+    "editTitle": "Edit Device Name",
+    "description": "Set a friendly name for easier identification by other devices",
+    "placeholder": "Enter device name",
+    "updated": "Device name updated"
+  },
+  "room": {
+    "joinTitle": "Join Room",
+    "joinDesc": "Enter room code to join the room where other devices are",
+    "placeholder": "Enter 6-digit room code",
+    "passwordPlaceholder": "Room password (at least 6 characters)",
+    "passwordRequired": "This room requires a password to join",
+    "invalidCode": "Invalid room code format (requires 6 alphanumeric characters)",
+    "createSecure": "Create Encrypted Room",
+    "createSecureDesc": "Create an encrypted room, only users with the password can join",
+    "roomCode": "Room Code",
+    "roomCodePlaceholder": "6 alphanumeric characters",
+    "password": "Room Password",
+    "passwordMinLength": "At least 6 characters",
+    "passwordStrength": {
+      "weak": "Weak",
+      "fair": "Fair",
+      "good": "Good",
+      "strong": "Strong"
+    },
+    "securityFeatures": {
+      "doubleEncryption": "End-to-end double encryption",
+      "mitm": "Prevents man-in-the-middle attacks",
+      "noServerStorage": "Password not stored on server"
+    },
+    "createSecureBtn": "Create Encrypted Room",
+    "createSuccess": "Encrypted room created successfully",
+    "passwordError": "Password incorrect",
+    "alreadySecure": "Already in an encrypted room",
+    "secureRoomActive": "Encrypted room - Password protection enabled",
+    "clickToCreateSecure": "Click to create encrypted room",
+    "autoAssigning": "Auto assigning...",
+    "switchedToRoom": "Switched to new room: {{room}}",
+    "autoAssigned": "Joined room {{room}}, share the room code with other devices"
+  },
+  "share": {
+    "title": "Share Room",
+    "qrHint": "Scan QR code to join room",
+    "roomCode": "Room Code",
+    "copyCode": "Copy Room Code",
+    "copyLink": "Copy Link",
+    "moreWays": "More Options",
+    "hint": "Let other devices join this room code to transfer files",
+    "linkCopied": "Link copied",
+    "roomCodeCopied": "Room code copied",
+    "nativeShareTitle": "CloudDrop - Join Room",
+    "nativeShareText": "Join room {{room}} to transfer files"
+  },
+  "chat": {
+    "title": "Message History",
+    "titleWithPeer": "Chat with {{name}}",
+    "placeholder": "Type a message...",
+    "removeImage": "Remove image",
+    "imagePreview": "Preview",
+    "imageFullscreen": "Fullscreen Preview",
+    "emptyState": {
+      "icon": "💬",
+      "text": "No messages yet",
+      "hint": "Send your first message or image below"
+    },
+    "sending": "Sending...",
+    "failed": "Failed · Tap to retry",
+    "justNow": "Just now",
+    "minutesAgo": "{{minutes}} min ago",
+    "hoursAgo": "{{hours}} hr ago",
+    "copyMessage": "Copy message",
+    "copyImage": "Copy image",
+    "attachImage": "Send image",
+    "imageSent": "Image sent",
+    "imageSendFailed": "Image send failed: {{error}}",
+    "imagePreviewFailed": "Image preview failed: {{error}}",
+    "receivedImage": "{{name}} sent an image",
+    "copyNotSupported": "Your browser doesn't support copying images, please right-click to copy manually",
+    "imageCopied": "Image copied to clipboard"
+  },
+  "download": {
+    "title": "File Received",
+    "saveFile": "Save File",
+    "saved": "Saved: {{name}}"
+  },
+  "toast": {
+    "peerJoined": "{{name}} joined",
+    "peerLeft": "{{name}} left",
+    "fileSent": "Sent: {{name}}",
+    "fileDeclined": "{{name}} declined to receive file",
+    "fileTimeout": "File request timed out, no response from recipient",
+    "sendFailed": "Send failed: {{error}}",
+    "messageSent": "Message sent",
+    "autoAccepting": "Auto-accepting file from {{name}}: {{file}}",
+    "peerRenamed": "{{oldName}} renamed to {{newName}}",
+    "retryFailed": "Retry failed: {{error}}",
+    "trusted": "Device trusted: {{name}}",
+    "untrusted": "Device untrusted: {{name}}",
+    "noDevices": "No devices available",
+    "selectDevice": "Please click on the target device to send file",
+    "selectDeviceForText": "Please click on the message button of the target device to send text",
+    "copyFailed": "Copy failed",
+    "shareNotSupported": "Your browser doesn't support sharing",
+    "shareFailed": "Share failed",
+    "invalidRoomCode": "Please enter complete 6-digit room code"
+  },
+  "settings": {
+    "title": "Settings",
+    "deviceName": "Device Name",
+    "currentRoom": "Current Room",
+    "connectionStatus": "Connection Status",
+    "trustedDevices": "Trusted Devices",
+    "trustedDevicesHint": "Files from trusted devices will be automatically accepted",
+    "noTrustedDevices": "No trusted devices",
+    "unknownBrowser": "Unknown browser",
+    "clickToUntrust": "Click to untrust",
+    "edit": "Edit",
+    "untrust": "Untrust",
+    "confirmUntrust": "Are you sure you want to untrust \"<strong>{{name}}</strong>\"?<br><br><span style=\"color: var(--text-muted)\">After untrusting, files from this device will require manual confirmation.</span>",
+    "keepTrust": "Keep Trust"
+  },
+  "navigation": {
+    "devices": "Devices",
+    "room": "Room",
+    "send": "Send",
+    "share": "Share",
+    "settings": "Settings"
+  },
+  "quickActions": {
+    "title": "Send to...",
+    "sendFile": "Send File",
+    "sendFileDesc": "Select file to send to device",
+    "sendText": "Send Text",
+    "sendTextDesc": "Send text message or link"
+  },
+  "fileTypes": {
+    "image": "Image",
+    "video": "Video",
+    "audio": "Audio",
+    "document": "Document",
+    "archive": "Archive",
+    "code": "Code",
+    "file": "File"
+  },
+  "deviceTypes": {
+    "desktop": "Desktop",
+    "mobile": "Mobile",
+    "tablet": "Tablet",
+    "unknown": "Unknown Device"
+  },
+  "errors": {
+    "connectionFailed": "Connection failed",
+    "transferFailed": "Transfer failed",
+    "fileTooBig": "File too large",
+    "unsupportedBrowser": "Browser not supported",
+    "networkError": "Network error",
+    "fileReadFailed": "File read failed",
+    "imageLoadFailed": "Image load failed"
+  }
+}
